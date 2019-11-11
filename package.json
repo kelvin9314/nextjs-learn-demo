@@ -6,5 +6,8 @@
   },
   "devDependencies": {
     "prettier": "^1.16.4"
+  },
+  "dependencies": {
+    "react-markdown": "^4.2.2"
   }
 }

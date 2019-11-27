@@ -1,6 +1,8 @@
 const fetch = require('isomorphic-unfetch');
+const isProd = process.env.NODE_ENV !== 'production';
 
 module.exports = {
+  assetPrefix: isProd ? '' : '',
   exportPathMap: async function() {
     const paths = {
       '/': { page: '/' },

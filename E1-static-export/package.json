@@ -13,7 +13,6 @@
     "pm2-start": "pm2 start ecosystem.config.js",
     "pm2-stop": "pm2 delete e1-app || true",
     "pm2-logs": "pm2 logs e1-app --lines 200"
-
   },
   "keywords": [],
   "author": "",
@@ -22,6 +21,7 @@
     "isomorphic-unfetch": "^3.0.0",
     "next": "^9.0.0",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "serialize-javascript": "^3.0.0"
   }
 }

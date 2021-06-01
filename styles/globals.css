@@ -35,3 +35,12 @@ footer {
   color: #777;
   border-top: 1px solid #eaeaea;
 }
+
+.not-match {
+  text-align: center;
+}
+.not-match a {
+  /* text-align: center; */
+  color:royalblue;
+  text-decoration: underline;
+}

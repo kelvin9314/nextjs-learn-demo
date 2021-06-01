@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles from '../../styles/Sub.module.css'
 
 // NOTE run in build time
@@ -21,11 +22,11 @@ const Sub = ({subs}) => {
       </h1>
       
       {subs.map(sub => (
-        <div key={sub.id}>
+        <Link href={`/sub/${sub.id}`} key={sub.id} >
           <a className={styles.single}>
             <h3>{sub.name}</h3>
           </a>
-        </div>
+        </Link>
       ))}
     
     </div>

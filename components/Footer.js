@@ -1,8 +1,8 @@
 const Footer = (params) => {
   return (
-    <div>
+    <footer >
       Copyright {new Date().getFullYear()} Sub List
-    </div>
+    </footer>
   )
 }
 
